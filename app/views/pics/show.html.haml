@@ -2,7 +2,8 @@
 %p= @pic.description
 %p
 Pic by
-= @pic.user.email
+= @pic.user.try(:email)
+
 
 %br
 
