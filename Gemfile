@@ -41,6 +41,8 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'jquery-rails'
 gem 'paperclip', '~> 5.1'
+gem 'acts_as_votable', '~> 0.11.1'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
